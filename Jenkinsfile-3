@@ -1,6 +1,6 @@
 def firstName = null
 pipeline {
-  agent none
+  agent any
   stages {
     stage('input') {
       steps {
