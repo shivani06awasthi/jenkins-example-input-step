@@ -14,7 +14,7 @@ pipeline {
       }
     }
     stage('output') {
-      agent none
+      agent any
       steps {
         script {
           echo "Good Morning, $firstName"
